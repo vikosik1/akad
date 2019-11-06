@@ -9,40 +9,96 @@
     <link rel="stylesheet" href="styles/layout.css">
     <link rel="stylesheet" href="styles/style.css">
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:700|Open+Sans:400,800&display=swap" rel="stylesheet">
+
     <title>LAYOUT</title>
 </head>
-<h1>GOL</h1>
 
 <body>
+    <!-- ================HEADER START================= -->
     <header class="ba-header">
         <div class="container">
-            <a href="" class="ba-logo"></a>
-            <nav>
-                <ul class="ba-menu">
-                    <li class="ba-menu__item"><a href="" class="ba-menu__link">item1</a></li>
-                    <li class="ba-menu__item"><a href="" class="ba-menu__link">item2</a></li>
-                    <li class="ba-menu__item"><a href="" class="ba-menu__link">item3</a></li>
-                    <li class="ba-menu__item"><a href="" class="ba-menu__link">item4</a></li>
-                </ul>
-            </nav>
+            <div class="ba-header-wrapper">
+
+
+                <h1 class="ba-logo">
+                    <a href="" class="ba-logo__link">akad.</a>
+                </h1>
+
+                <nav hidden>
+                    <button>
+                        <span class="ba-menu-btn__line" aria-label='open-menu'></span>
+                        <span class="ba-menu-btn__line"></span>
+                        <span class="ba-menu-btn__line"></span>
+                    </button>
+                    <ul class="ba-menu">
+                        <li class="ba-menu__item"><a href="" class="ba-menu__link">item1</a></li>
+                        <li class="ba-menu__item"><a href="" class="ba-menu__link">item2</a></li>
+                        <li class="ba-menu__item"><a href="" class="ba-menu__link">item3</a></li>
+                        <li class="ba-menu__item"><a href="" class="ba-menu__link">item4</a></li>
+                    </ul>
+                </nav>
+            </div>
         </div>
     </header>
-    <main>
-        <section class="ba-section">
+    <!-- ================HEADER END================= -->
+    <main class="ba-info">
+        <!-- ================BA-HERO START================= -->
+        <section class="ba-section ba-hero">
             <div class="container">
+                <div class="ba-hero-wrapper">
+                    <div class="ba-hero__title">
+                        <h2 class="ba-hero__title">about us</h2>
+                        <div class="ba-hero__breadcrumbs">
+                            <nav>
+                                <ul class="ba-breadcrumbs">
+                                    <li class="ba-breadcrumbs__item">
+                                        <a href="" class="ba-breadcrumbs__link">home</a>
+                                    </li>
+                                    <li class="ba-breadcrumbs__item">
+                                        <a href="" class="ba-breadcrumbs__link">about</a>
+                                    </li>
+                                </ul>
+                            </nav>
+                        </div>
 
+                    </div>
+
+                </div>
             </div>
         </section>
+        <section class="ba-about">
+            <div class="container">
+                <div class="ba-row">
+                    <div class="ba-col-6">
+                        <div class="ba-info-block">
+                            <h2 class="ba-info__title">
+                                lalamf fwsef
+                            </h2>
+                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Architecto quaerat error eum culpa eius ut alias illum repudiandae obcaecati optio.</p>
+
+                        </div>
+                    </div>
+                    <div class="ba-col-6">
+                        <div class="ba-info-block">
+                            <h2 class="ba-info__title">
+                                lalamf fwsef
+                            </h2>
+                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Architecto quaerat error eum culpa eius ut alias illum repudiandae obcaecati optio.</p>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- ================BA-HERO END================= -->
     </main>
+    <!-- ================FOOTER START================= -->
     <footer class="ba-footer">
         <div class="container">
-            <div class="ba-row">
-                <div class="ba-col-4">1</div>
-                <div class="ba-col-4">2</div>
-                <div class="ba-col-4">3</div>
-            </div>
         </div>
     </footer>
+    <!-- ================FOOTER END================= -->
 </body>
 
 </html>
